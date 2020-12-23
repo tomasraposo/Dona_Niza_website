@@ -1,0 +1,79 @@
+@import "/stylesheets/reset.css";
+
+@font-face {
+    font-family: CALIBRE-REGULAR;
+    src: url("/fonts/CALIBRE-REGULAR.TTF");
+}
+
+video.play-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    object-fit: cover;
+}
+
+nav.navbar {
+    width: 100%;
+}
+	 
+ul {
+    list-style: none;
+    font-family: CALIBRE-REGULAR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;    
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+li {
+    z-index: 100;
+    top: 33px;
+    position: relative;
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.centered-logo {
+    display: block;
+    margin: auto;
+    top: 40%;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.more-icon {
+    content: url("/images/more-icon-white.svg");
+}
+
+div#background-video {
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 33px;
+    font-family: CALIBRE-REGULAR;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: white;
+}

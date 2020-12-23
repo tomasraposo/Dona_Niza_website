@@ -1,0 +1,29 @@
+{ 
+    "Crato": [{
+	"Casta" : "Crato Branco",
+	"Solos" : "Argilo-Calcário",
+	"Denominacao" : "Vinho Regional Algarve",
+	"Vinificacao": "Vindima manual selectiva feita em caixas de 20kg. Vinificação com temperatura controlada entre 12-14°C",
+	"Aroma" : "Aromas florais e minerais (maresia) de média intensidade",
+	"Cor" : "Branco palha",
+	"Prova" : "Vinho de cor cítrica muito complexo com notas de fruta branca: flores e perdeneira. É um vinho pleno de salinidade e frescura",
+	"Gastronomia" : "Este vinho é bem acompanhado de marisco e peixe",
+	"Enólogo" : "João Marques do Ó",
+	"Produtor" : "João Raposo",
+	"Preco" : "11€"
+    }],
+    "Arinto": [{
+    	"Casta" : "Arinto",
+	"Solos" : "Argilo-Calcário",
+	"Denominacao" : "Vinho Regional Algarve",
+	"Vinificacao" : "Vindima manual selective feita em caixas de 20kg. Vinificação com temperatura controlada entre 12-14°C",
+	"Aroma" : "Aromas cítricos",
+	"Cor" : "Branco cítrico",
+	"Prova" : "Vinho de cor cítrica com aroma muito fresco e tropical no qual predominam as notas de maracujá e ananás: uma acidez crocante e muita mineralidade",
+	"Gastronomia" : "Este vinho é bem acompanhado de marisco e peixe",
+	"Enólogo" : "João Marques do Ó",
+	"Produtor" : "João Raposo",
+	"Preco" : "11€"
+    }]
+}
+

@@ -1,0 +1,97 @@
+@import "/stylesheets/index.css";
+@import url("/stylesheets/mobile-vinha.css") (max-width: 640px);
+@import url("/stylesheets/tablet-vinha.css") (min-width: 641px);
+@import url("/stylesheets/desktop-vinha.css") (min-width: 981px);
+
+.more-icon {
+    content: url("/images/more-icon-green.svg");
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    color: #839745;
+    text-decoration-color: #839745;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    background: white;
+}
+
+div.line-separator {
+    position: relative;
+    width: auto;
+    height: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 75px;
+    border-bottom: 0.5px solid #839745;
+}
+
+a img.logo {
+    position: absolute;
+    height: 41.18px;
+    left: 20px;
+    top: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px 0px;
+    padding: 20px;
+}
+
+.top_row {
+    padding-top: 85px;
+    display: grid;
+    border-bottom: 0.5px solid #839745;
+}
+
+.top_row_lcol {
+    position: relative;
+    grid-column: 1;
+    height: 100%;
+    display: grid;
+    margin: auto;
+    grid-gap: 0 20px;
+}
+
+.rcol {
+    grid-column: 2;
+}
+
+.btm_row {
+    position: relative;
+    display: grid;
+    grid-gap: 20px 20px;
+}
+
+p, .about-text {
+    font-family: CALIBRE-REGULAR;
+    font-style: normal;
+    font-weight: 500;
+    color: #839745;
+}
+
+.lcol {
+    grid-column: 1;
+}
+.rcol {
+    grid-column: 2;
+}
+
+.fst_row, .snd_row, .trd_row, .frth_row {
+    height: 40px;
+}

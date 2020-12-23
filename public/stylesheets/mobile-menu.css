@@ -1,0 +1,43 @@
+@import "reset.css";
+
+@font-face {
+    font-family: CALIBRE-REGULAR;
+    src: url("/fonts/CALIBRE-REGULAR.TTF");
+}
+
+body {
+    background: #839745;
+}
+
+a img.logo {
+    filter: brightness(0) invert(1);
+    position: absolute;
+    height: 43.18px;
+    top: 20px;
+    left: 20px;
+}
+
+.close-icon {
+    width: 35px;
+    transform: rotateZ(43deg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul#items-list {
+    margin-top: 50%;
+}
+
+li {
+    font-family: CALIBRE-REGULAR;
+    font-size: 51px;
+    position: relative;
+    padding: 10px;
+    line-height: 70px;
+    text-align: center;
+}

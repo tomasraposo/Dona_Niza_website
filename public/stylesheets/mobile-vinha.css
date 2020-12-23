@@ -1,0 +1,37 @@
+@import "/stylesheets/index.css";
+
+.container {
+    font-size: 20px;
+    grid-template-columns:1fr;  
+    grid-gap: 20px 0px;
+}
+.top_row {
+    padding-top: 95px;
+    position: relative;
+    grid-template-rows:2fr; 
+    grid-template-columns:1fr;
+    grid-gap: 20px 0px;
+    grid-row:1; 
+}
+.top_row_lcol {
+    grid-row:1;
+}
+.top_row_rcol {
+    grid-row:2;
+    margin-bottom: 20px;
+}
+.btm_row {
+    grid-template-columns:1fr;
+}
+
+.logo {
+    width: 75.37px;
+}
+a {
+    font-size: 18px;
+}
+p, .about-text {
+    letter-spacing: -0.04em;
+    text-align: justify;
+    line-height: 25px;
+}

@@ -1,0 +1,50 @@
+@import "/stylesheets/reset.css";
+
+@font-face {
+    font-family: CALIBRE-REGULAR;
+    src: url("/fonts/CALIBRE-REGULAR.TTF");
+}
+
+.selected-image > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.caption > p {
+    font-family: CALIBRE-REGULAR;
+    color: #839745;
+    text-align: center;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+.prev-arrow  > a > img {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 40px;
+}
+
+.next-arrow > a >  img {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: scaleX(-1);
+    width: 40px;
+}
+
+.close-button > a > img {
+    width: 30px;
+    transform: rotateZ(43deg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
